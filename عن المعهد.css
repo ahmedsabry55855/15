@@ -1,0 +1,394 @@
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #2009f0;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 90px;
+}
+
+.navigation .logo {
+  font-size: 1.9em;
+  font-weight: 700;
+  transition: 0.7s ease;
+}
+.logo3 {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.9em;
+  justify-content: right;
+  transition: 0.7s ease;
+}
+.logo2 {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.9em;
+  justify-content: right;
+  transition: 0.7s ease;
+}
+.logo1 {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.9em;
+  justify-content: right;
+  transition: 0.7s ease;
+}
+.navigation a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: 500;
+  padding-left: 30px;
+  transition: 0.7s ease;
+}
+
+.navigatio a:hover {
+  color: #0c48ec81;
+}
+.logo:hover {
+  display: flex;
+  color: #8793ff;
+  transform: scale(1.1);
+}
+.logo1:hover {
+  display: flex;
+  color: #8793ff;
+  transform: scale(1.1);
+}
+.logo2:hover {
+  color: #8793ff;
+  transform: scale(1.1);
+}
+.logo3:hover {
+  color: #8793ff;
+  transform: scale(1.1);
+}
+section {
+  padding: 100px 0px;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(sabry/112.jpg) no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.main h2 {
+  color: #000000;
+  font-size: 3.3em;
+  font-weight: 900;
+}
+
+.main h2 span {
+  display: inline-block;
+  margin-right: 30px;
+  color: #0400ff;
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
+.main-btn {
+  color: #4fff09;
+  background-color: #0e46ff;
+  text-decoration: none;
+  font-size: 1.4em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition: 0.7s ease;
+  margin: 30px;
+  border: 2px solid #0004ff;
+}
+.main-btn:hover {
+  background-color: #1619e4;
+  transform: scale(1.1);
+}
+.video {
+  margin: 8%;
+  width: 80%;
+}
+.b {
+  background-color: #919191;
+}
+.b .h {
+  color: #0805ca;
+  display: flex;
+  justify-content: center;
+  font-size: 2.5em;
+  font-weight: 900;
+  margin-bottom: 70px;
+}
+.r .e {
+  text-align: right;
+  color: #61011e;
+  font-size: 2.2em;
+  font-weight: 900;
+  margin-bottom: 28px;
+}
+.r .n {
+  text-align: right;
+  font-size: 1.8em;
+  margin-right: 0%;
+}
+.r .p {
+  margin-bottom: 13px;
+  color: #ff0000;
+}
+.t {
+  background-color: aliceblue;
+}
+.t .z {
+  font-size: 2.7em;
+  color: #e41627;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.t .tt {
+  border: 2px solid #ff0000;
+  color: #0400ff;
+  text-align: right;
+  font-size: 1.7em;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 1.2em;
+  border-radius: 30px;
+  transition: 0.7s ease;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+}
+.t .tt:hover {
+  background-color: #dbdcff;
+  color: #000000;
+  transform: scale(1.1);
+}
+
+@media (min-width: 1023px) {
+  header {
+    padding: 12px 20px;
+  }
+
+  .navigation a {
+    padding-left: 12px;
+  }
+
+  .title {
+    font-size: 1.5em;
+  }
+
+  section {
+    padding: 80px 20px;
+  }
+
+  .main-content h2 {
+    font-size: 1em;
+  }
+
+  .main-content h3 {
+    font-size: 1.6em;
+  }
+
+  .navigation .logo {
+    font-size: 2.3em;
+    font-weight: 800;
+  }
+
+  .logo3 {
+    font-size: 2em;
+  }
+
+  .logo2 {
+    font-size: 2em;
+  }
+
+  .logo1 {
+    font-size: 2em;
+  }
+  .video {
+    margin: 8%;
+    width: 80%;
+  }
+}
+
+@media (max-width: 1023px) {
+  header {
+    padding: 8px 10px;
+    width: 100%;
+  }
+
+  .navigation a {
+    padding-left: 12px;
+  }
+
+  .title {
+    font-size: 1.5em;
+  }
+
+  section {
+    padding: 80px 20px;
+  }
+
+  .main-content h2 {
+    font-size: 1.3em;
+  }
+
+  .main-content h3 {
+    font-size: 1.9em;
+  }
+
+  .navigation .logo {
+    font-size: 1em;
+    font-weight: 800;
+  }
+
+  .logo3 {
+    font-size: 0.9em;
+  }
+
+  .logo2 {
+    font-size: 0.9em;
+  }
+
+  .logo1 {
+    font-size: 0.9em;
+  }
+  .main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .main-btn1 {
+    font-size: 1em;
+  }
+  .a1 {
+    font-size: 2.5em;
+  }
+  .main h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+  .main h3 {
+    font-size: 1.4em;
+    font-weight: 250;
+  }
+  .main-btn {
+    font-size: 0.9em;
+    font-weight: 600;
+  }
+  .social-icons a {
+    font-size: 1.7em;
+    padding-right: 20px;
+  }
+  .video {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .b .h {
+    font-size: 1.8em;
+    font-weight: 900;
+  }
+  .r .e {
+    font-size: 1.6em;
+    font-weight: 900;
+  }
+  .r .n {
+    font-size: 1.45em;
+    font-weight: 700;
+  }
+  .t .z {
+    font-size: 2em;
+    font-weight: 500;
+  }
+  .t .tt {
+    font-size: 1em;
+    font-weight: 500;
+  }
+  .video {
+    margin: 8%;
+    width: 80%;
+  }
+}

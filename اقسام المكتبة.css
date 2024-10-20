@@ -1,0 +1,381 @@
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #2009f0;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 90px;
+}
+
+.navigation .logo {
+  font-size: 1.9em;
+  font-weight: 700;
+  transition: 0.7s ease;
+}
+.logo3 {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.9em;
+  justify-content: right;
+  transition: 0.7s ease;
+}
+.logo2 {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.9em;
+  justify-content: right;
+  transition: 0.7s ease;
+}
+.logo1 {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.9em;
+  justify-content: right;
+  transition: 0.7s ease;
+}
+.navigation a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: 500;
+  padding-left: 30px;
+  transition: 0.7s ease;
+}
+
+.navigatio a:hover {
+  color: #0c48ec81;
+}
+.logo:hover {
+  display: flex;
+  color: #8793ff;
+  transform: scale(1.1);
+}
+.logo1:hover {
+  display: flex;
+  color: #8793ff;
+  transform: scale(1.1);
+}
+.logo2:hover {
+  color: #8793ff;
+  transform: scale(1.1);
+}
+.logo3:hover {
+  color: #8793ff;
+  transform: scale(1.1);
+}
+section {
+  padding: 100px 200px;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(sabry/ahmed.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.main h2 {
+  color: #d0ff00;
+  font-size: 2.3em;
+  font-weight: 900;
+}
+
+.main h2 span {
+  display: inline-block;
+  margin-right: 30px;
+  color: #0400ff;
+  font-size: 0.99em;
+  font-weight: 500;
+}
+
+.main h3 {
+  color: #00fd15;
+  font-size: 2em;
+  font-weight: 450;
+  letter-spacing: 1.3px;
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+
+.main-btn {
+  color: #4fff09;
+  background-color: 0e46ff;
+  text-decoration: none;
+  font-size: 1.4em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition: 0.7s ease;
+  margin: 30px;
+  border: 2px solid #0004ff;
+}
+.main-btn:hover {
+  background-color: #1619e4;
+  transform: scale(1.1);
+}
+.social-icons a {
+  color: #0b35f0;
+  font-size: 2.5em;
+  padding-right: 20px;
+}
+.f {
+  display: row;
+  background-color: #125388;
+}
+.f .title {
+  display: flex;
+  color: #e41627;
+  margin-top: 20px;
+  font-size: 3em;
+  justify-content: center;
+  margin-bottom: 1.1em;
+}
+.a {
+  display: flex;
+  color: rgb(231, 231, 231);
+  background-color: #043eff;
+  text-decoration: none;
+  font-size: 1.4em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition: 0.7s ease;
+  margin: 30px;
+  width: 16em;
+}
+.a:hover {
+  background-color: #00ff00;
+  transform: scale(1.1);
+}
+.s {
+  display: flex;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: right;
+  flex-direction: row;
+  width: 12em;
+}
+.s{
+  transform: scale(1.1);
+}
+
+@media (min-width: 1023px) {
+  header {
+    padding: 12px 20px;
+  }
+
+
+  .navigation a {
+    padding-left: 12px;
+  }
+
+  .title {
+    font-size: 1.5em;
+  }
+
+  section {
+    padding: 80px 20px;
+  }
+
+  .main-content h2 {
+    font-size: 1em;
+  }
+
+  .main-content h3 {
+    font-size: 1.6em;
+  }
+
+  .navigation .logo {
+    font-size: 2.3em;
+    font-weight: 800;
+  }
+
+  .logo3 {
+    font-size: 2em;
+  }
+
+  .logo2 {
+    font-size: 2em;
+  }
+
+  .logo1 {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 1023px) {
+  header {
+    padding: 8px 10px;
+    width: 100%;
+  }
+
+  .navigation a {
+    padding-left: 12px;
+  }
+
+  .title {
+    font-size: 1.5em;
+  }
+ 
+  
+
+  section {
+    padding: 80px 20px;
+  }
+
+  .main-content h2 {
+    font-size: 1.3em;
+  }
+
+  .main-content h3 {
+    font-size: 1.9em;
+  }
+
+  .navigation .logo {
+    font-size: 1em;
+    font-weight: 800;
+  }
+
+  .logo3 {
+    font-size: 0.9em;
+  }
+
+  .logo2 {
+    font-size: 0.9em;
+  }
+
+  .logo1 {
+    font-size: 0.9em;
+  }
+  .main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .main-btn1 {
+    font-size: 1em;
+  }
+  .a1 {
+    font-size: 2.5em;
+  }
+  .main h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+  .main h3 {
+    font-size: 1.4em;
+    font-weight: 250;
+  }
+  .main-btn1 {
+    font-size: 1em;
+    font-weight: 600;
+    margin: 30px;
+    width: 19em;
+    height: 2.9em;
+  }
+  .main-btn {
+    font-size: 0.9em;
+    font-weight: 600;
+  }
+  .social-icons a {
+    font-size: 1.7em;
+    padding-right: 20px;
+  }
+  .f .title {
+    font-size: 2.1em;
+  }
+  .a {
+    font-size: 1em;
+    font-weight: 600;
+  }
+  .s {
+    flex-direction: row;
+    width: 12em;
+  }
+}
