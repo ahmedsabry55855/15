@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="montda.css">
+    <title>منتدى الطلاب</title>
+    <script src="https://www.youtube.com/iframe_api"></script>
+</head>
+<body>
+
+    <header>
+        <button class="header-toggle" onclick="toggleMenu()">☰</button>
+        <nav class="navigation" id="navMenu" style="display: none;">
+            <a href="index.html" class="logo1"> الصفحة الرئيسية</a>
+            <a href="forum.html" class="logo1">منتدى المكتبة </a>
+            <a href="خدمات المعهد.html" class="logo2">دعم الطلاب</a>
+            <a href="صفحة الروابط.html" class="logo3">الروابط</a>
+            <a href="اقسام المكتبه.html" class="logo1"> الكتب الثقافية</a>
+        </nav>
+    </header>
+
+    <section class="main" dir="rtl" style="height: 75vh;">
+        <div class="content">
+            <h2 class=""><br><span> منتدى المكتبة </span></h2>
+            <h2 class="o">للتواصل مع المطور </h2>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/sabry55855">
+                    <img src="assets/icons/facebook-color.svg" alt="فيسبوك" style="width: 30px; height: 30px;">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=201115932251&text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85">
+                    <img src="assets/icons/whatsapp-icon-logo-svgrepo-com.svg" alt="واتساب" style="width: 30px; height: 30px;">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="f">
+        <h2 class="forum-title">المنتدى الاخبارى</h2>
+
+
+
+
+
+
+
+
+
+        <h2 class="forum-title">المنتدى الثقافى</h2>
+    <div class="video-container">
+        
+        <div class="video">
+            <iframe  id="video7" width="100%" height="400"src="https://www.youtube.com/embed/-i1uF3pa0oI?si=BYjQ3ChDE0ed8nM7" title="YouTube video player"   allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <iframe id="video7" width="100%" height="400" src="https://www.youtube.com/embed/p1g9orJZ3KI?si=RywQu62k4dBlvxQ5" title="YouTube video player"  allowfullscreen></iframe>
+        </div>
+    </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var players = {};
+        var currentlyPlaying;
+
+        function onYouTubeIframeAPIReady() {
+            players['video1'] = new YT.Player('video1', {
+                events: {
+                    'onReady': onPlayerReady
+                }
+            });
+            players['video2'] = new YT.Player('video2', {
+                events: {
+                    'onReady': onPlayerReady
+                }
+            });
+        }
+
+        function onPlayerReady(event) {
+            var playerId = event.target.a.id;
+
+            document.getElementById(playerId).addEventListener('click', function() {
+                if (currentlyPlaying && currentlyPlaying !== playerId) {
+                    players[currentlyPlaying].pauseVideo();
+                }
+                currentlyPlaying = playerId;
+                players[playerId].playVideo();
+            });
+        }
+
+        function toggleMenu() {
+            var navMenu = document.getElementById("navMenu");
+            if (navMenu.style.display === "block") {
+                navMenu.style.display = "none"; // إخفاء القائمة
+            } else {
+                navMenu.style.display = "block"; // عرض القائمة
+            }
+        }
+        
+        // إخفاء القائمة عند النقر في أي مكان في الصفحة
+        document.addEventListener('click', function(event) {
+            var navMenu = document.getElementById("navMenu");
+            var toggleButton = document.querySelector('.header-toggle');
+        
+            // تحقق مما إذا كان النقر خارج القائمة وزر التبديل
+            if (navMenu.style.display === "block" && !navMenu.contains(event.target) && !toggleButton.contains(event.target)) {
+                navMenu.style.display = "none"; // إخفاء القائمة
+            }
+        });
+        </script>
+</body>
+</html> 

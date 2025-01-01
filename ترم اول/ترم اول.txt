@@ -1,0 +1,26 @@
+<!-- قائمة معرفات المواد المستخدمة -->
+business-management
+english
+economics
+law
+financial-accounting
+insurance
+intermediate-accounting
+marketing-communications
+investment
+macro-economics
+business-ethics
+advanced-finance
+project-management
+hr-management
+applied-statistics
+advanced-accounting
+tax-accounting
+public-finance
+feasibility-study
+micro-economics
+commercial-law
+cost-accounting
+psychology
+marketing
+logistics

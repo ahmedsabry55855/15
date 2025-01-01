@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="اقسام المكتبة.css">
+    <title>اقسام المكتبة</title>
+</head>
+<body>
+
+<header>
+    <button class="header-toggle" onclick="toggleMenu()">☰</button>
+    <nav class="navigation" id="navMenu">
+        <a href="index.html" class="logo1">الصفحة الرئيسية</a>
+        <a href="forum.html" class="logo1">منتدى المكتبة </a>
+        <a href="خدمات المعهد.html" class="logo2">دعم الطلاب</a>
+        <a href="صفحة الروابط.html" class="logo3">الروابط</a>
+        <a href="اقسام المكتبه.html" class="logo1">الكتب الثقافية</a>
+    </nav>
+</header>
+
+<section class="main" dir="rtl">
+    <div>
+        <h2><br><span>قسم الكتب الثقافية  </span></h2>
+        <h2 class="aaa">للتواصل مع المطور </h2>
+
+        <div class="social-icons">
+            <a href="https://www.facebook.com/sabry55855">
+                <img src="assets/icons/facebook-color.svg" alt="فيسبوك" style="width: 30px; height: 30px;">
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=201115932251&text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85">
+                <img src="assets/icons/whatsapp-icon-logo-svgrepo-com.svg" alt="واتساب" style="width: 30px; height: 30px;">
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="f" style="margin-top: 0;">
+
+    <div class="a">
+        <a href="كتب علم النفس.html" class="button ">للذهاب الى كتب علم النفس </a>
+    </div>
+    <div class="a">
+        <a href="الكتب الدينية.html" class="button ">للذهاب الى الكتب الأسلامية</a>
+    </div>
+    <div class="a">
+        <a href="كتب التسويق.html" class="button ">للذهاب الى  كتب التسويق الالكترونى</a>
+    </div>
+    <div class="a">
+        <a href="كتب التاريخ.html" class="button ">للذهاب الى  كتب التاريخ</a>
+    </div>
+    <div class="a">
+        <a href="كتب البرمجه.html" class="button ">للذهاب الى  كتب البرمجه</a>
+    </div>
+
+</section>
+
+<script>
+function toggleMenu() {
+    var navMenu = document.getElementById("navMenu");
+    if (navMenu.style.display === "block") {
+        navMenu.style.display = "none";
+    } else {
+        navMenu.style.display = "block";
+    }
+}
+
+document.addEventListener('click', function(event) {
+    var navMenu = document.getElementById("navMenu");
+    var toggleButton = document.querySelector('.header-toggle');
+
+    if (navMenu.style.display === "block" && !navMenu.contains(event.target) && !toggleButton.contains(event.target)) {
+        navMenu.style.display = "none";
+    }
+});
+</script>
+
+</body>
+</html>

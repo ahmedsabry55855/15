@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المواد الدراسية - منصة الطلاب</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <button class="header-toggle" onclick="toggleMenu()">☰</button>
+        <nav class="navigation" id="navMenu" style="display: none;">
+            <a href="../index.html" class="logo1"> الصفحة الرئيسية</a>
+            <a href="../forum.html" class="logo1">منتدى المكتبة </a>
+            <a href="../خدمات المعهد.html" class="logo2">دعم الطلاب</a>
+            <a href="../صفحة الروابط.html" class="logo3">الروابط</a>
+            <a href="../اقسام المكتبه.html" class="logo1"> الكتب الثقافية</a>
+        </nav>
+    </header>
+
+    <section class="main" dir="rtl" style="height: 75vh;">
+        <div class="content">
+            <h2 class=""><br><span> كتب الترم الاول </span></h2>
+            <h2 class="o">للتواصل مع المطور </h2>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/sabry55855">
+                    <img src="../assets/icons/facebook-color.svg" alt="فيسبوك" style="width: 30px; height: 30px;">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=201115932251&text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85">
+                    <img src="../assets/icons/whatsapp-icon-logo-svgrepo-com.svg" alt="واتساب" style="width: 30px; height: 30px;">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="subjects-container">
+        <h1 class="page-title">المواد الدراسية</h1>
+
+        <div class="subjects-grid">
+            <!-- مبادئ إدارة الأعمال -->
+            <div class="subject-card" data-subject="business-management">
+                <div class="subject-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <h3>مبادئ إدارة الأعمال</h3>
+                <button onclick="openSubjectFiles('business-management')" class="view-files-btn">
+                    عرض الملفات
+                </button>
+            </div>
+
+            <!-- لغة انجليزية 1 -->
+            <div class="subject-card" data-subject="english">
+                <div class="subject-icon">
+                    <i class="fas fa-language"></i>
+                </div>
+                <h3>لغة انجليزية 1</h3>
+                <button onclick="openSubjectFiles('english')" class="view-files-btn" >
+                    عرض الملفات
+                </button>
+            </div>
+
+            <!-- مبادئ الاقتصاد -->
+            <div class="subject-card" data-subject="economics">
+                <div class="subject-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>مبادئ الاقتصاد</h3>
+                <button onclick="openSubjectFiles('economics')" class="view-files-btn">
+                    عرض الملفات
+                </button>
+            </div>
+
+            <!-- مبادئ القانون -->
+            <div class="subject-card" data-subject="law">
+                <div class="subject-icon">
+                    <i class="fas fa-gavel"></i>
+                </div>
+                <h3>مبادئ القانون</h3>
+                <button onclick="openSubjectFiles('law')" class="view-files-btn">
+                    عرض الملفات
+                </button>
+            </div>
+
+            <!-- مبادئ المحاسبة المالية -->
+            <div class="subject-card" data-subject="financial-accounting">
+                <div class="subject-icon">
+                    <i class="fas fa-calculator"></i>
+                </div>
+                <h3>مبادئ المحاسبة المالية</h3>
+                <button onclick="openSubjectFiles('financial-accounting')" class="view-files-btn">
+                    عرض الملفات
+                </button>
+            </div>
+
+            <!-- التأمين وإدارة المخاطر -->
+            <div class="subject-card" data-subject="insurance">
+                <div class="subject-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>التأمين وإدارة المخاطر</h3>
+                <button onclick="openSubjectFiles('insurance')" class="view-files-btn">
+                    عرض الملفات
+                </button>
+            </div>
+
+            <!-- المحاسبة المتوسطة -->
+            <div class="subject-card" data-subject="intermediate-accounting">
+                <div class="subject-icon">
+                    <i class="fas fa-book-open"></i>
+                </div>
+                <h3>المحاسبة المتوسطة</h3>
+                <button onclick="openSubjectFiles('intermediate-accounting')" class="view-files-btn">
+                    عرض الملفات
+                </button>
+            </div>
+
+            <!-- نظم الاتصالات التسويقية -->
+            <div class="subject-card" data-subject="marketing-communications">
+                <div class="subject-icon">
+                    <i class="fas fa-bullhorn"></i>
+                </div>
+                <h3>نظم الاتصالات التسويقية</h3>
+                <button onclick="openSubjectFiles('marketing-communications')" class="view-files-btn">
+                    عرض الملفات
+                </button>
+            </div>
+
+            <!-- مبادئ الاستثمار -->
+            <div class="subject-card" data-subject="investment">
+                <div class="subject-icon">
+                    <i class="fas fa-coins"></i>
+                </div>
+                <h3>مبادئ الاستثمار</h3>
+                <button onclick="openSubjectFiles('investment')" class="view-files-btn">
+                    عرض الملفات
+                </button>
+            </div>
+
+            <!-- مبادئ الاقتصاد الكلي -->
+            <div class="subject-card" data-subject="macro-economics">
+                <div class="subject-icon">
+                    <i class="fas fa-chart-bar"></i>
+                </div>
+                <h3>مبادئ الاقتصاد الكلي</h3>
+                <button onclick="openSubjectFiles('macro-economics')" class="view-files-btn">
+                    عرض الملفات
+                </button>
+            </div>
+
+            <!-- اخلاقيات الأعمال والحوكمة -->
+            <div class="subject-card" data-subject="business-ethics">
+                <div class="subject-icon">
+                    <i class="fas fa-balance-scale"></i>
+                </div>
+                <h3>اخلاقيات الأعمال والحوكمة</h3>
+                <button onclick="openSubjectFiles('business-ethics')" class="view-files-btn">
+                    عرض الملفات
+                </button>
+            </div>
+
+            <!-- إدارة مالية متقدمة -->
+            <div class="subject-card" data-subject="advanced-finance">
+                <div class="subject-icon">
+                    <i class="fas fa-money-bill-wave"></i>
+                </div>
+                <h3>إدارة مالية متقدمة</h3>
+                <button onclick="openSubjectFiles('advanced-finance')" class="view-files-btn">
+                    عرض الملفات
+                </button>
+            </div>
+
+            <!-- إدارة المشروعات -->
+            <div class="subject-card" data-subject="project-management">
+                <div class="subject-icon">
+                    <i class="fas fa-tasks"></i>
+                </div>
+                <h3>إدارة المشروعات</h3>
+                <button onclick="openSubjectFiles('project-management')" class="view-files-btn">
+                    عرض الملفات
+                </button>
+            </div>
+
+            <!-- إدارة الموارد البشرية -->
+            <div class="subject-card" data-subject="hr-management">
+                <div class="subject-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>إدارة الموارد البشرية</h3>
+                <button onclick="openSubjectFiles('hr-management')" class="view-files-btn">
+                    عرض الملفات
+                </button>
+            </div>
+
+            <!-- الاحصاء التطبيقي -->
+            <div class="subject-card" data-subject="applied-statistics">
+                <div class="subject-icon">
+                    <i class="fas fa-chart-pie"></i>
+                </div>
+                <h3>الاحصاء التطبيقي</h3>
+                <button onclick="openSubjectFiles('applied-statistics')" class="view-files-btn">
+                    عرض الملفات
+                </button>
+            </div>
+
+            <!-- المحاسبة المالية المتقدمة -->
+            <div class="subject-card" data-subject="advanced-accounting">
+                <div class="subject-icon">
+                    <i class="fas fa-file-invoice-dollar"></i>
+                </div>
+                <h3>المحاسبة المالية المتقدمة</h3>
+                <button onclick="openSubjectFiles('advanced-accounting')" class="view-files-btn">
+                    عرض الملفات
+                </button>
+            </div>
+
+            <!-- المحاسبة الضريبية -->
+            <div class="subject-card" data-subject="tax-accounting">
+                <div class="subject-icon">
+                    <i class="fas fa-percentage"></i>
+                </div>
+                <h3>المحاسبة الضريبية</h3>
+                <button onclick="openSubjectFiles('tax-accounting')" class="view-files-btn">
+                    عرض الملفات
+                </button>
+            </div>
+
+            <!-- مبادئ المالية العامة -->
+            <div class="subject-card" data-subject="public-finance">
+                <div class="subject-icon">
+                    <i class="fas fa-landmark"></i>
+                </div>
+                <h3>مبادئ المالية العامة</h3>
+                <button onclick="openSubjectFiles('public-finance')" class="view-files-btn">
+                    عرض الملفات
+                </button>
+            </div>
+
+            <!-- دراسة جدوى المشروعات -->
+            <div class="subject-card" data-subject="feasibility-study">
+                <div class="subject-icon">
+                    <i class="fas fa-project-diagram"></i>
+                </div>
+                <h3>دراسة جدوى المشروعات</h3>
+                <button onclick="openSubjectFiles('feasibility-study')" class="view-files-btn">
+                    عرض الملفات
+                </button>
+            </div>
+
+            <!-- مبادئ الاقتصاد الجزئي -->
+            <div class="subject-card" data-subject="micro-economics">
+                <div class="subject-icon">
+                    <i class="fas fa-chart-area"></i>
+                </div>
+                <h3>مبادئ الاقتصاد الجزئي</h3>
+                <button onclick="openSubjectFiles('micro-economics')" class="view-files-btn">
+                    عرض الملفات
+                </button>
+            </div>
+
+            <!-- القانون التجاري -->
+            <div class="subject-card" data-subject="commercial-law">
+                <div class="subject-icon">
+                    <i class="fas fa-balance-scale-right"></i>
+                </div>
+                <h3>القانون التجاري</h3>
+                <button onclick="openSubjectFiles('commercial-law')" class="view-files-btn">
+                    عرض الملفات
+                </button>
+            </div>
+
+            <!-- محاسبة التكاليف -->
+            <div class="subject-card" data-subject="cost-accounting">
+                <div class="subject-icon">
+                    <i class="fas fa-receipt"></i>
+                </div>
+                <h3>محاسبة التكاليف</h3>
+                <button onclick="openSubjectFiles('cost-accounting')" class="view-files-btn">
+                    عرض الملفات
+                </button>
+            </div>
+
+            <!-- علم النفس -->
+            <div class="subject-card" data-subject="psychology">
+                <div class="subject-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3>علم النفس</h3>
+                <button onclick="openSubjectFiles('psychology')" class="view-files-btn">
+                    عرض الملفات
+                </button>
+            </div>
+
+            <!-- التسويق -->
+            <div class="subject-card" data-subject="marketing">
+                <div class="subject-icon">
+                    <i class="fas fa-ad"></i>
+                </div>
+                <h3>التسويق</h3>
+                <button onclick="openSubjectFiles('marketing')" class="view-files-btn">
+                    عرض الملفات
+                </button>
+            </div>
+
+            <!-- اللوجستيات -->
+            <div class="subject-card" data-subject="logistics">
+                <div class="subject-icon">
+                    <i class="fas fa-truck-loading"></i>
+                </div>
+                <h3>اللوجستيات</h3>
+                <button onclick="openSubjectFiles('logistics')" class="view-files-btn">
+                    عرض الملفات
+                </button>
+            </div>
+        </div>
+
+        <!-- نافذة عرض ملفات المادة -->
+        <div id="subjectModal" class="subject-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="modalTitle"></h2>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="files-section">
+                        <div class="files-header">
+                            <h3>الملفات المرفوعة</h3>
+                        </div>
+                        <div id="filesList" class="files-list">
+                            <!-- سيتم ملء هذا القسم ديناميكياً -->
+                             
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="subjects.js"></script>
+    
+<script>
+    function toggleMenu() {
+        var navMenu = document.getElementById("navMenu");
+        if (navMenu.style.display === "block") {
+            navMenu.style.display = "none"; // إخفاء القائمة
+        } else {
+            navMenu.style.display = "block"; // عرض القائمة
+        }
+    }
+    
+    // إخفاء القائمة عند النقر في أي مكان في الصفحة
+    document.addEventListener('click', function(event) {
+        var navMenu = document.getElementById("navMenu");
+        var toggleButton = document.querySelector('.header-toggle');
+    
+        // تحقق مما إذا كان النقر خارج القائمة وزر التبديل
+        if (navMenu.style.display === "block" && !navMenu.contains(event.target) && !toggleButton.contains(event.target)) {
+            navMenu.style.display = "none"; // إخفاء القائمة
+        }
+    });
+    </script>
+    
+</body>
+</html> 

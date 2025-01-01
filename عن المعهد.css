@@ -1,0 +1,601 @@
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+.main h2 {
+  color: #2009f0;
+  font-size: 2.3em;
+  font-weight: 900;
+}
+
+.main h2 span {
+  display: inline-block;
+  margin-right: 30px;
+  color: #2009f0;
+  font-size: 0.99em;
+  font-weight: 500;
+}
+
+.main h3 {
+  color: #2009f0;
+  font-size: 2em;
+  font-weight: 450;
+  letter-spacing: 1.3px;
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+header {
+  background-color: #2009f0;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo2 {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.9em;
+  justify-content: right;
+  transition: 0.7s ease;
+}
+.logo3 {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.9em;
+  justify-content: right;
+  transition: 0.7s ease;
+}
+.navigation a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: 500;
+  padding-left: 30px;
+}
+.navigation .logo {
+  font-size: 1.9em;
+  font-weight: 700;
+  transition: 0.7s ease;
+}
+.logo1 {
+  display: flex;
+  font-size: 1.9em;
+  font-weight: 700;
+  justify-content: center;
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.7s ease;
+}
+.logo:hover {
+  display: flex;
+  color: #8793ff;
+  transform: scale(1.1);
+}
+.logo1:hover {
+  display: flex;
+  color: #8793ff;
+  transform: scale(1.1);
+}
+.logo2:hover {
+  color: #8793ff;
+  transform: scale(1.1);
+}
+.logo3:hover {
+  color: #8793ff;
+  transform: scale(1.1);
+}
+
+
+/* أنماط القائمة المنسدلة */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #2009f0;
+  color: white;
+  padding: 10px 15px;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.navigation {
+  display: none; /* إخفاء القائمة بشكل افتراضي */
+  position: absolute; /* جعل القائمة تظهر فوق المحتوى */
+  right: 0px; /* ترك مسافة 3 بكسل من اليمين */
+  top: 50px; /* ترك مسافة 50 بكسل من الأعلى */
+  background: linear-gradient(135deg, #4a90e2, #50e3c2); /* تدرج لوني للخلفية */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* ظل أكثر وضوحًا */
+  z-index: 1; /* ترتيب الظهور */
+  border-radius: 8px; /* إضافة زوايا دائرية */
+  padding: 10px 0; /* إضافة حشوة داخلية */
+  transition: all 0.3s ease; /* تأثير الانتقال */
+}
+
+.navigation a {
+  display: block; /* جعل الروابط تأخذ عرض كامل */
+  padding: 12px 20px; /* حشوة الروابط */
+  color: #ffffff; /* لون النص أبيض */
+  text-decoration: none; /* إزالة التسطير */
+  transition: background-color 0.3s, color 0.3s, transform 0.3s; /* تأثير الانتقال */
+}
+
+.navigation a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* تغيير لون الخلفية عند التمرير */
+  color: #ffffff; /* الحفاظ على لون النص أبيض */
+  transform: translateX(5px); /* إضافة تأثير التحريك */
+}
+
+.navigation a:active {
+  background-color: rgba(255, 255, 255, 0.3); /* لون الخلفية عند الضغط */
+}
+
+.header-toggle {
+  display: block; /* عرض زر الهيدر */
+  margin-left: auto; /* محاذاة الزر إلى اليمين */
+}
+
+
+.main {
+  height: 85vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(sabry/ahmed.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.video {
+  margin: 8%;
+  width: 80%;
+}
+.my-button {
+  color: #3e09ff;
+  background-color: #272b38;
+  text-decoration: none;
+  font-size: 1.4em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition: 0.8s ease;
+  margin-left: 30%;
+  margin-right: 30%;
+  border: 2px solid #4d4d57;
+}
+.my-button:hover {
+  background-color: #ffffff;
+  transform: scale(1.1);
+}
+.b {
+  background-color: #919191;
+}
+.b .h {
+  color: #0805ca;
+  display: flex;
+  justify-content: center;
+  font-size: 2.5em;
+  font-weight: 900;
+  margin-bottom: 70px;
+}
+.r .e {
+  text-align: right;
+  color: #61011e;
+  font-size: 2.2em;
+  font-weight: 900;
+  margin-bottom: 28px;
+}
+.r .n {
+  text-align: right;
+  font-size: 1.8em;
+  margin-right: 0%;
+}
+.r .p {
+  margin-bottom: 13px;
+  color: #ff0000;
+}
+.t {
+  background-color: aliceblue;
+}
+.t .z {
+  font-size: 2.7em;
+  color: #e41627;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.tt {
+  display: inline-block;
+  padding: 12px 24px; /* حجم الزر */
+  margin: 0; /* إزالة المسافة بين الأزرار */
+  background: linear-gradient(135deg, #6a5acd, #836fff); /* تدرج لوني جذاب */
+  color: #ffffff; /* لون النص */
+  text-decoration: none; /* إزالة التسطير */
+  border-radius: 25px; /* زوايا دائرية */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* ظل */
+  transition: background 0.3s, transform 0.3s, box-shadow 0.3s; /* تأثيرات الانتقال */
+  font-size: 1.1em; /* حجم الخط */
+  font-weight: bold; /* جعل النص عريض */
+  text-align: center; /* محاذاة النص في المنتصف */
+  border: 2px solid transparent; /* حدود شفافة */
+}
+
+.tt:hover {
+  background: linear-gradient(135deg, #2e15ca, #1500467a); /* تغيير التدرج عند التمرير */
+  transform: translateY(-3px); /* رفع الزر قليلاً عند التمرير */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* زيادة الظل عند التمرير */
+  border: 2px solid #ffffff; /* إضافة حدود بيضاء عند التمرير */
+}
+
+.tt:active {
+  transform: translateY(0); /* إعادة الزر لمكانه عند الضغط */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* إعادة الظل */
+}
+.button-container {
+  display: flex; /* استخدام flexbox لتوزيع الأزرار */
+  justify-content: center; /* محاذاة الأزرار في المنتصف */
+  margin: 20px 0; /* مسافة عمودية بين الأزرار والمحتوى */
+}
+.term-btn {
+  display: inline-block;
+  padding: 12px 24px; /* حجم الزر */
+  margin: 0; /* إزالة المسافة بين الأزرار */
+  background: linear-gradient(135deg, #6a5acd, #836fff); /* تدرج لوني جذاب */
+  color: #ffffff; /* لون النص */
+  text-decoration: none; /* إزالة التسطير */
+  border-radius: 25px; /* زوايا دائرية */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* ظل */
+  transition: background 0.3s, transform 0.3s, box-shadow 0.3s; /* تأثيرات الانتقال */
+  font-size: 1.1em; /* حجم الخط */
+  font-weight: bold; /* جعل النص عريض */
+  text-align: center; /* محاذاة النص في المنتصف */
+  border: 2px solid transparent; /* حدود شفافة */
+}
+
+.term-btn:hover {
+  background: linear-gradient(135deg, #2e15ca, #1500467a); /* تغيير التدرج عند التمرير */
+  transform: translateY(-3px); /* رفع الزر قليلاً عند التمرير */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* زيادة الظل عند التمرير */
+  border: 2px solid #ffffff; /* إضافة حدود بيضاء عند التمرير */
+}
+
+.term-btn:active {
+  transform: translateY(0); /* إعادة الزر لمكانه عند الضغط */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* إعادة الظل */
+}
+/* @media (min-width: 1023px) { */
+
+  header {
+    padding: 12px 20px;
+  }
+
+  .navigation a {
+    padding-left: 12px;
+  }
+
+  .title {
+    font-size: 1.5em;
+  }
+
+  section {
+    padding: 80px 20px;
+  }
+
+  .main-content h2 {
+    font-size: 1em;
+  }
+
+  .main-content h3 {
+    font-size: 1.6em;
+  }
+
+  .navigation .logo {
+    font-size: 2.3em;
+    font-weight: 800;
+  }
+
+  .logo3 {
+    font-size: 2em;
+  }
+
+  .logo2 {
+    font-size: 2em;
+  }
+
+  .logo1 {
+    font-size: 2em;
+  }
+  .video {
+    margin: 8%;
+    width: 80%;
+  }
+
+}
+
+@media (max-width: 1023px) {
+
+
+  .navigation a {
+    padding-left: 12px;
+  }
+
+  .title {
+    font-size: 1.5em;
+  }
+
+  section {
+    padding: 80px 20px;
+  }
+
+  .main-content h2 {
+    font-size: 1.3em;
+  }
+
+  .main-content h3 {
+    font-size: 1.9em;
+  }
+
+  .main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .main-btn1 {
+    font-size: 1em;
+  }
+  .a1 {
+    font-size: 2.5em;
+  }
+  .main h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+  .main h3 {
+    font-size: 1.4em;
+    font-weight: 250;
+  }
+  .main-btn {
+    font-size: 0.9em;
+    font-weight: 600;
+  }
+  .social-icons a {
+    font-size: 1.7em;
+    padding-right: 20px;
+  }
+  .video {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .b .h {
+    font-size: 1.8em;
+    font-weight: 900;
+  }
+  .r .e {
+    font-size: 1.6em;
+    font-weight: 900;
+  }
+  .r .n {
+    font-size: 1.45em;
+    font-weight: 700;
+  }
+  .t .z {
+    font-size: 2em;
+    font-weight: 500;
+  }
+  .t .tt {
+    font-size: 1em;
+    font-weight: 500;
+  }
+  .video {
+    margin: 8%;
+    width: 80%;
+  }
+  .my-button {
+
+    font-size: 1.0em;
+    font-weight: 90;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+
+  }
+}
+
+
+
+
+
+/* استعلام وسائط لتصغير عرض الأزرار في الشاشات الصغيرة */
+@media (max-width: 768px) {
+  .button-container {
+      flex-direction: column; /* تغيير الاتجاه إلى عمودي */
+      align-items: center; /* محاذاة الأزرار في المنتصف */
+  }
+
+  .main-btn1 {
+      width: 90%; /* جعل عرض الزر 90% من عرض الحاوية */
+      margin: 10px 0; /* إضافة مسافة عمودية بين الأزرار */
+  }
+}
+
+
+/* استعلام وسائط للشاشات الصغيرة */
+@media (max-width: 768px) {
+
+
+  .dropbtn {
+      width: auto;
+      text-align: center;
+  }
+
+  .dropdown-content {
+      width: 100%;
+  }
+}
+
+@media (max-width: 720px) {
+    .main h2 {
+        font-size: 1.5em; /* تقليل حجم النص في العنوان الرئيسي */
+    }
+
+    .main h3 {
+        font-size: 1.2em; /* تقليل حجم النص في العنوان الفرعي */
+    }
+}
+@media (max-width: 400px) {
+  .main h2 {
+      font-size: 2.0em; /* تقليل حجم النص في العنوان الرئيسي */
+  }
+
+  .main h3 {
+      font-size: 1.5em; /* تقليل حجم النص في العنوان الفرعي */
+  }
+
+  .navigation .logo {
+      font-size: 1.5em; /* تقليل حجم النص في الشعار */
+  }
+
+  .logo1, .logo2, .logo3 {
+      font-size: 1.5em; /* تقليل حجم النص في الشعارات */
+  }
+
+  .navigation a {
+      font-size: 1.2em; /* تقليل حجم النص في روابط القائمة */
+  }
+
+  .a1 {
+      font-size: 2.0em; /* تقليل حجم عنصر a1 */
+  }
+
+  .my-button, .main-btn {
+      font-size: 1.0em; /* تقليل حجم الأزرار */
+  }
+
+  .b .h {
+      font-size: 1.5em; /* تقليل حجم النص في عنصر b.h */
+  }
+
+  .r .e {
+      font-size: 1.4em; /* تقليل حجم النص في عنصر r.e */
+  }
+
+  .r .n {
+      font-size: 1.2em; /* تقليل حجم النص في عنصر r.n */
+  }
+
+  .t .z {
+      font-size: 1.8em; /* تقليل حجم النص في عنصر t.z */
+  }
+
+  .t .tt {
+      font-size: 0.9em; /* تقليل حجم النص في عنصر t.tt */
+  }
+}

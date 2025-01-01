@@ -1,0 +1,37 @@
+.forum-title {
+    text-align: center; /* محاذاة العنوان في المنتصف */
+    color: #ff0000; /* تغيير لون العنوان إلى الأحمر */
+    font-size: 1.5em;
+}
+
+.f {
+    background-color: #06109e; /* لون خلفية فاتح */
+    padding: 20px; /* إضافة حشوة داخلية للقسم */
+    border-radius: 8px; /* زوايا دائرية */
+}
+
+.video-container {
+    display: flex; /* استخدام flexbox */
+    flex-wrap: wrap; /* السماح بالتفاف العناصر */
+    justify-content: center; /* محاذاة العناصر في المنتصف */
+    gap: 20px; /* مسافة بين الفيديوهات */
+    margin-top: 20px; /* مسافة أعلى الحاوية */
+}
+
+.video {
+    flex: 0 0 45%; /* عدم السماح للعنصر بالتمدد أو الانكماش، وتحديد العرض بـ 45% */
+    max-width: 45%; /* تعديل العرض الأقصى إلى 45% */
+    margin-bottom: 20px; /* إضافة مسافة بين الصفوف */
+}
+
+/* إضافة تنسيقات جديدة للشاشات الصغيرة */
+@media (max-width: 800px) {
+    .video-container {
+        flex-direction: column; /* جعل العناصر في عمود */
+        align-items: center; /* محاذاة العناصر في المنتصف */
+    }
+
+    .video {
+        max-width: 100%; /* جعل عرض الفيديو 100% */
+    }
+}

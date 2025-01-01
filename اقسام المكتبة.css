@@ -1,0 +1,273 @@
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.main {
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(sabry/ahmed.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.main h2 {
+  color: #06109e;
+  font-size: 2.3em;
+  font-weight: 900;
+}
+
+.main h2 span {
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 100px;
+  color: #ff0000;
+  font-size: 1em;
+  font-weight: 900;
+}
+
+.main h3 {
+  color: #00fd15;
+  font-size: 2em;
+  font-weight: 450;
+  letter-spacing: 1.3px;
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+
+.main-btn {
+  color: #4fff09;
+  background-color: 0e46ff;
+  text-decoration: none;
+  font-size: 1.4em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition: 0.7s ease;
+  margin: 30px;
+  border: 2px solid #0004ff;
+}
+.main-btn:hover {
+  background-color: #1619e4;
+  transform: scale(1.1);
+}
+.social-icons a {
+  color: #0b35f0;
+  font-size: 2.5em;
+  padding-right: 20px;
+}
+.f {
+
+  background-color: hsl(207, 77%, 30%);
+  flex-wrap: wrap; /* السماح بالتفاف العناصر */
+  justify-content: space-between;
+  display: flex; 
+}
+
+
+
+.a {
+  flex: 1 1 42%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+/* ... existing code ... */
+.button {
+  display: inline-block;
+  padding: 12px 24px; /* حجم الزر */
+  margin: 0; /* إزالة المسافة بين الأزرار */
+  background: linear-gradient(135deg, #6a5acd, #836fff); /* تدرج لوني جذاب */
+  color: #ffffff; /* لون النص */
+  text-decoration: none; /* إزالة التسطير */
+  border-radius: 25px; /* زوايا دائرية */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* ظل */
+  transition: background 0.3s, transform 0.3s, box-shadow 0.3s; /* تأثيرات الانتقال */
+  font-size: 1.1em; /* حجم الخط */
+  font-weight: bold; /* جعل النص عريض */
+  text-align: center; /* محاذاة النص في المنتصف */
+  border: 2px solid transparent; /* حدود شفافة */
+}
+
+.button:hover {
+  background: linear-gradient(135deg, #2e15ca, #1500467a); /* تغيير التدرج عند التمرير */
+  transform: translateY(-3px); /* رفع الزر قليلاً عند التمرير */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* زيادة الظل عند التمرير */
+  border: 2px solid #ffffff; /* إضافة حدود بيضاء عند التمرير */
+}
+
+.button:active {
+  transform: translateY(0); /* إعادة الزر لمكانه عند الضغط */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* إعادة الظل */
+}
+
+
+@media (max-width: 1023px) {
+
+  
+
+  section {
+    padding: 80px 20px;
+  }
+
+  .main-content h2 {
+    font-size: 1.3em;
+  }
+
+  .main-content h3 {
+    font-size: 1.9em;
+  }
+
+
+  .main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .main-btn1 {
+    font-size: 1em;
+  }
+  .a1 {
+    font-size: 2.5em;
+  }
+  .main h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+  .main h3 {
+    font-size: 1.4em;
+    font-weight: 250;
+  }
+  .main-btn1 {
+    font-size: 1em;
+    font-weight: 600;
+    margin: 30px;
+    width: 19em;
+    height: 2.9em;
+  }
+  .main-btn {
+    font-size: 0.9em;
+    font-weight: 600;
+  }
+  .social-icons a {
+    font-size: 1.7em;
+    padding-right: 20px;
+  }
+.title {
+    font-size: 2.1em;
+  }
+  .a {
+    font-size: 1em;
+    font-weight: 600;
+  }
+  .s {
+    flex-direction: row;
+    width: 12em;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* استعلام وسائط لتصغير عرض الأزرار في الشاشات الصغيرة */
+@media (max-width: 768px) {
+  .button-container {
+      flex-direction: column; /* تغيير الاتجاه إلى عمودي */
+      align-items: center; /* محاذاة الأزرار في المنتصف */
+  }
+
+  .main-btn1 {
+      width: 90%; /* جعل عرض الزر 90% من عرض الحاوية */
+      margin: 10px 0; /* إضافة مسافة عمودية بين الأزرار */
+  }
+}
+
+/* استعلام وسائط للشاشات الصغيرة */
+@media (max-width: 768px) {
+
+  .dropbtn {
+      width: auto;
+      text-align: center;
+  }
+
+  .dropdown-content {
+      width: 100%;
+  }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="assets/icons/fontawesome.css">
+
+    <title>ahmed sabry</title>
+</head>
+<body>
+    
+    <header>
+        <button class="header-toggle" onclick="toggleMenu()">☰</button>
+        <nav class="navigation" id="navMenu">
+            <a href="index.html" class="logo1"> الصفحة الرئيسية</a>
+            <a href="forum.html" class="logo1">منتدى المكتبة </a>
+            <a href="خدمات المعهد.html" class="logo2">دعم الطلاب</a>
+            <a href="صفحة الروابط.html" class="logo3">الروابط</a>
+            <a href="اقسام المكتبه.html" class="logo1"> الكتب الثقافية</a>
+            
+        </nav>
+    </header>
+<section class="main" dir="rtl">
+    <div class="content" style="text-align: center;">
+        <h2 class="">صفحة تيم اسرة ثمار لمساعدة الطلاب <br><span>تحت اشراف الدكتور/هانى هانى الحفيظ السطوحى</span></h2>
+        <a href="mailto: level1report@gmail.com" class="main-btn">للتواصل مع الدكتور </a>
+
+    </div>
+</section>
+<section class="ahmed" id="services" dir="rtl">
+    <a align="right" href="عن المعهد.html" class="main-btn1">صفحة المعهد</a>
+    <h3 class="a1">الخدمات التى نقدمها للطلاب</h3>
+    <h2 class="a2">تقديم التطورات التى تتعلق بتكنولوجيا المعلومات و المصادر المتاحه للطلاب و فرص التعليم المجانية و المهارات المطلوبة لسوق العمل</h2>
+    <h3 class="a3">كما نوفر لكم جيع مواقع و برامج الذكاء الاصطناعى و توضيح كيفية استخدامها</h3>
+    <h3 class="a2">كما يمكننا تديب الطلاب على تقديم عروضات و تدريب الطلاب على القاء مناقشة فى اجتماعت مهم</h3>
+    <h3 class="a3">كما نوفر لكم خدمة انشاء سيرة ذاتية مصممة بأحدث التطورات التى تتعلق بتكنولوجيا</h3>
+    <h2 class="a1">للانضمام الينا</h2>
+    
+    <div class="button-container">
+        <a href="https://chat.whatsapp.com/DFcKc4OklceCtciTSjgFHF" class="main-btn1">انضم معنا عبر واتساب</a>
+        <a href="https://api.whatsapp.com/send?phone=201115932251&text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85" class="main-btn1">للتواصل مع المسؤول</a>
+    </div>
+</section>
+<script>
+    function toggleMenu() {
+        var navMenu = document.getElementById("navMenu");
+        if (navMenu.style.display === "block") {
+            navMenu.style.display = "none"; // إخفاء القائمة
+        } else {
+            navMenu.style.display = "block"; // عرض القائمة
+        }
+    }
+    
+    // إخفاء القائمة عند النقر في أي مكان في الصفحة
+    document.addEventListener('click', function(event) {
+        var navMenu = document.getElementById("navMenu");
+        var toggleButton = document.querySelector('.header-toggle');
+    
+        // تحقق مما إذا كان النقر خارج القائمة وزر التبديل
+        if (navMenu.style.display === "block" && !navMenu.contains(event.target) && !toggleButton.contains(event.target)) {
+            navMenu.style.display = "none"; // إخفاء القائمة
+        }
+    });
+    </script>
+</body>
+</html>

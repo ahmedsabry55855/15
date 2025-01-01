@@ -1,0 +1,716 @@
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+header {
+  background-color: #2009f0;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo2 {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.9em;
+  justify-content: right;
+  transition: 0.7s ease;
+}
+.logo3 {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.9em;
+  justify-content: right;
+  transition: 0.7s ease;
+}
+.navigation a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: 500;
+  padding-left: 30px;
+}
+.navigation .logo {
+  font-size: 1.9em;
+  font-weight: 700;
+  transition: 0.7s ease;
+}
+.logo1 {
+  display: flex;
+  font-size: 1.9em;
+  font-weight: 700;
+  justify-content: center;
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.7s ease;
+}
+.logo:hover {
+  display: flex;
+  color: #8793ff;
+  transform: scale(1.1);
+}
+.logo1:hover {
+  display: flex;
+  color: #8793ff;
+  transform: scale(1.1);
+}
+.logo2:hover {
+  color: #8793ff;
+  transform: scale(1.1);
+}
+.logo3:hover {
+  color: #8793ff;
+  transform: scale(1.1);
+}
+section {
+  padding: 100px 200px;
+}
+
+.main {
+  height: 85vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(sabry/ahmed.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+
+.main h2 {
+  color: #2009f0;
+  font-size: 2.3em;
+  font-weight: 900;
+}
+
+.main h2 span {
+  display: inline-block;
+  margin-right: 30px;
+  color: #2009f0;
+  font-size: 0.99em;
+  font-weight: 500;
+}
+
+.main h3 {
+  color: #2009f0;
+  font-size: 2em;
+  font-weight: 450;
+  letter-spacing: 1.3px;
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+
+.main-btn {
+  display: inline-block;
+  padding: 12px 24px; /* حجم الزر */
+  margin: 0; /* إزالة المسافة بين الأزرار */
+  background: linear-gradient(135deg, #6a5acd, #836fff); /* تدرج لوني جذاب */
+  color: #ffffff; /* لون النص */
+  text-decoration: none; /* إزالة التسطير */
+  border-radius: 25px; /* زوايا دائرية */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* ظل */
+  transition: background 0.3s, transform 0.3s, box-shadow 0.3s; /* تأثيرات الانتقال */
+  font-size: 1.1em; /* حجم الخط */
+  font-weight: bold; /* جعل النص عريض */
+  text-align: center; /* محاذاة النص في المنتصف */
+  border: 2px solid transparent; /* حدود شفافة */
+}
+
+.main-btn:hover {
+  background: linear-gradient(135deg, #2e15ca, #1500467a); /* تغيير التدرج عند التمرير */
+  transform: translateY(-3px); /* رفع الزر قليلاً عند التمرير */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* زيادة الظل عند التمرير */
+  border: 2px solid #ffffff; /* إضافة حدود بيضاء عند التمرير */
+}
+
+.main-btn:active {
+  transform: translateY(0); /* إعادة الزر لمكانه عند الضغط */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* إعادة الظل */
+}
+.social-icons a {
+  color: #0b35f0;
+  font-size: 2.5em;
+  padding-right: 20px;
+}
+.title {
+  display: flex;
+  color: #ff0e0e;
+  display: flex;
+  justify-content: center;
+  font-size: 2.2em;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+.ahmed {
+  background-color: #cecdcd;
+}
+.ahmed .content {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-direction: column;
+}
+.icon {
+  flex-direction: column;
+}
+.main-btn1 {
+  display: inline-block;
+  padding: 12px 24px; /* حجم الزر */
+  margin: 0; /* إزالة المسافة بين الأزرار */
+  background: linear-gradient(135deg, #6a5acd, #836fff); /* تدرج لوني جذاب */
+  color: #ffffff; /* لون النص */
+  text-decoration: none; /* إزالة التسطير */
+  border-radius: 25px; /* زوايا دائرية */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* ظل */
+  transition: background 0.3s, transform 0.3s, box-shadow 0.3s; /* تأثيرات الانتقال */
+  font-size: 1.1em; /* حجم الخط */
+  font-weight: bold; /* جعل النص عريض */
+  text-align: center; /* محاذاة النص في المنتصف */
+  border: 2px solid transparent; /* حدود شفافة */
+}
+
+.main-btn1:hover {
+  background: linear-gradient(135deg, #2e15ca, #4800f07a); /* تغيير التدرج عند التمرير */
+  transform: translateY(-3px); /* رفع الزر قليلاً عند التمرير */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* زيادة الظل عند التمرير */
+  border: 2px solid #ffffff; /* إضافة حدود بيضاء عند التمرير */
+}
+
+.main-btn1:active {
+  transform: translateY(0); /* إعادة الزر لمكانه عند الضغط */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* إعادة الظل */
+}
+.a1 {
+  color: #f80909;
+  font-size: 3.9em;
+  font-weight: 800;
+}
+.a2 {
+  color: #0004ff;
+  font-size: 1.9em;
+  margin-bottom: 20px;
+}
+.a3 {
+  color: #061175;
+  font-size: 2.2em;
+  margin-bottom: 20px;
+}
+.a4 {
+  color: #f80909;
+  font-size: 2.1em;
+  margin-bottom: 20px;
+}
+.a5 {
+  color: #0004ff;
+  margin-bottom: 20px;
+  font-size: 1.6em;
+}
+.a6 {
+  color: #020202;
+  margin-bottom: 20px;
+  font-size: 1.6em;
+}
+.a7 {
+  color: #0c1bee;
+  margin-bottom: 20px;
+  font-size: 1.6em;
+}
+.a8 {
+  color: #020202;
+  margin-bottom: 20px;
+  font-size: 1.6em;
+}
+.ss9 {
+  color: #04a312ad;
+  margin-bottom: 20px;
+  font-size: 1.6em;
+}
+
+@media (max-width: 1023px) {
+
+  .ahmed {
+    width: 100%;
+  }
+  .a1 {
+    font-size: 1.9em;
+  }
+  .a2 {
+    font-size: 1.75em
+  }
+  .a3 {
+    font-size: 1.6em;
+  }
+  .a4 {
+    font-size: 1.5em;
+  }
+  .a5 {
+    font-size: 1.3em;
+  }
+  .a6 {
+    font-size: 1.3em;
+  }
+  .a7 {
+    font-size: 1.3em;
+  }
+  .a8 {
+    font-size: 1.3em;
+  }
+
+  .navigation a {
+    padding-left: 12px;
+  }
+
+  .title {
+    font-size: 1.5em;
+  }
+
+  section {
+    padding: 80px 20px;
+  }
+
+  .main-content h2 {
+    font-size: 1em;
+  }
+
+  .main-content h3 {
+    font-size: 1.6em;
+  }
+
+  .navigation .logo {
+    font-size: 1em;
+    font-weight: 800;
+  }
+
+  .logo3 {
+    font-size: 0.9em;
+  }
+
+  .logo2 {
+    font-size: 0.9em;
+  }
+
+  .logo1 {
+    font-size: 0.9em;
+  }
+  .main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .main-btn1 {
+    font-size: 1em;
+
+  }
+  .a1 {
+    font-size: 2.5em;
+  }
+  .main h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+  .main h3 {
+    font-size: 1.4em;
+    font-weight: 250;
+  }
+  .main-btn1 {
+    font-size: .75em;
+    font-weight: 600;
+    margin: 30px;
+    width: 80%;
+    height: 2.9em;
+    margin-left: 10%;
+    
+  }
+  .main-btn {
+    font-size: 0.9em;
+    font-weight: 600;
+  }
+  .social-icons a {
+    font-size: 1.7em;
+    padding-right: 20px;
+  }
+}
+
+.main-btn1 {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+  font-size: 1.2em;
+}
+
+.main-btn1:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.main-btn1 {
+    flex: 1;
+    padding: 15px 20px;
+    margin: 0 10px;
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.main-btn1:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+/* استعلام وسائط لتصغير عرض الأزرار في الشاشات الصغيرة */
+@media (max-width: 768px) {
+    .button-container {
+        flex-direction: column; /* تغيير الاتجاه إلى عمودي */
+        align-items: center; /* محاذاة الأزرار في المنتصف */
+    }
+
+    .main-btn1 {
+        width: 90%; /* جعل عرض الزر 90% من عرض الحاوية */
+        margin: 10px 0; /* إضافة مسافة عمودية بين الأزرار */
+    }
+}
+
+
+
+/* أنماط القائمة المنسدلة */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #2009f0;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* استعلام وسائط للشاشات الصغيرة */
+@media (max-width: 768px) {
+
+    .navigation {
+        width: 100%;
+    }
+
+    .dropbtn {
+        width: auto;
+        text-align: center;
+    }
+
+    .dropdown-content {
+        width: 100%;
+    }
+}
+
+.navigation {
+    display: none; /* إخفاء القائمة بشكل افتراضي */
+    position: absolute; /* جعل القائمة تظهر فوق المحتوى */
+    right: 0px; /* ترك مسافة 3 بكسل من اليمين */
+    top: 50px; /* ترك مسافة 50 بكسل من الأعلى */
+    background: linear-gradient(135deg, #4a90e2, #50e3c2); /* تدرج لوني للخلفية */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* ظل أكثر وضوحًا */
+    z-index: 1; /* ترتيب الظهور */
+    border-radius: 8px; /* إضافة زوايا دائرية */
+    padding: 10px 0; /* إضافة حشوة داخلية */
+    transition: all 0.3s ease; /* تأثير الانتقال */
+}
+
+.navigation a {
+    display: block; /* جعل الروابط تأخذ عرض كامل */
+    padding: 12px 20px; /* حشوة الروابط */
+    color: #ffffff; /* لون النص أبيض */
+    text-decoration: none; /* إزالة التسطير */
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; /* تأثير الانتقال */
+}
+
+.navigation a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* تغيير لون الخلفية عند التمرير */
+    color: #ffffff; /* الحفاظ على لون النص أبيض */
+    transform: translateX(5px); /* إضافة تأثير التحريك */
+}
+
+.navigation a:active {
+    background-color: rgba(255, 255, 255, 0.3); /* لون الخلفية عند الضغط */
+}
+
+.header-toggle {
+    display: block; /* عرض زر الهيدر */
+    margin-left: auto; /* محاذاة الزر إلى اليمين */
+}
+
+@media (max-width: 720px) {
+    .main h2 {
+        font-size: 1.5em; /* تقليل حجم النص في العنوان الرئيسي */
+    }
+
+    .main h3 {
+        font-size: 1.2em; /* تقليل حجم النص في العنوان الفرعي */
+    }
+}
+
+@media (max-width: 400px) {
+  .navigation {
+    display: none; /* إخفاء القائمة بشكل افتراضي */
+    position: absolute; /* جعل القائمة تظهر فوق المحتوى */
+    right: 0px; /* ترك مسافة 3 بكسل من اليمين */
+    top: 50px; /* ترك مسافة 50 بكسل من الأعلى */
+    background: linear-gradient(135deg, #4a90e2, #50e3c2); /* تدرج لوني للخلفية */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* ظل أكثر وضوحًا */
+    z-index: 1; /* ترتيب الظهور */
+    border-radius: 8px; /* إضافة زوايا دائرية */
+    padding: 10px 0; /* إضافة حشوة داخلية */
+    transition: all 0.3s ease; /* تأثير الانتقال */
+}
+
+.navigation a {
+    display: block; /* جعل الروابط تأخذ عرض كامل */
+    padding: 12px 20px; /* حشوة الروابط */
+    color: #ffffff; /* لون النص أبيض */
+    text-decoration: none; /* إزالة التسطير */
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; /* تأثير الانتقال */
+}
+
+.navigation a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* تغيير لون الخلفية عند التمرير */
+    color: #ffffff; /* الحفاظ على لون النص أبيض */
+    transform: translateX(5px); /* إضافة تأثير التحريك */
+}
+
+.navigation a:active {
+    background-color: rgba(255, 255, 255, 0.3); /* لون الخلفية عند الضغط */
+}
+
+.header-toggle {
+    display: block; /* عرض زر الهيدر */
+    margin-left: auto; /* محاذاة الزر إلى اليمين */
+}
+
+    .main h2 {
+        font-size: 1.3em; /* تقليل حجم النص في العنوان الرئيسي */
+    }
+
+    .main h3 {
+        font-size: 1.1em; /* تقليل حجم النص في العنوان الفرعي */
+    }
+
+    .navigation a {
+        font-size: 1.2em; /* تقليل حجم النص في روابط القائمة */
+    }
+
+    .logo1, .logo2, .logo3 {
+        font-size: 1.5em; /* تقليل حجم النص في الشعارات */
+    }
+
+    .main-btn, .main-btn1 {
+        font-size: 0.9em; /* تقليل حجم الأزرا�� */
+    }
+
+    .social-icons a {
+        font-size: 1.5em; /* تقليل حجم الأيقونات الاجتماعية */
+    }
+
+    .title {
+        font-size: 1.5em; /* تقليل حجم عنوان القسم */
+    }
+
+    .project-category {
+        font-size: 0.5em; /* تقليل حجم عنصر project-category */
+    }
+
+    .title5 {
+        font-size: 1.1em; /* تقليل حجم عنصر title5 */
+    }
+
+    .a1, .a2, .a3, .a4, .a5, .a6, .a7, .a8 {
+        font-size: 1.2em; /* تقليل حجم العناصر a1 إلى a8 */
+    }
+}
+
+/* إضافة تنسيقات جديدة للقائمة في الشاشات الأقل من 1024 بكسل */
+@media (max-width: 800px) {
+    .navigation {
+        width: 40%; /* جعل عرض القائمة 90% من عرض الشاشة */
+        margin: 0 auto; /* محاذاة القائمة في المنتصف */
+        padding: 10px 0; /* إضافة حشوة داخلية */
+        border-radius: 8px; /* إضافة زوايا دائرية */
+    }
+
+    .navigation a {
+        font-size: 1.2em; /* تقليل حجم النص في روابط القائمة */
+        padding: 10px 15px; /* تقليل الحشوة داخل الروابط */
+    }
+
+    .header-toggle {
+        margin-left: auto; /* محاذاة زر الهيدر إلى اليمين */
+    }
+}

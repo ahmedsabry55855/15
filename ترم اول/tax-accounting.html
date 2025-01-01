@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المحاسبة الضريبية - المحاضرات والملفات</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* نفس التنسيقات CSS السابقة */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Cairo', sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 15px 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .back-btn {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.1em;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .main-content {
+            margin-top: 80px;
+            padding: 20px;
+        }
+
+        .subject-title {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #2c3e50;
+        }
+
+        .files-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .file-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .file-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .file-icon {
+            font-size: 40px;
+            color: #e74c3c;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .file-name {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+
+        .file-description {
+            color: #7f8c8d;
+            margin-bottom: 15px;
+            font-size: 0.9em;
+            line-height: 1.4;
+        }
+
+        .download-btn {
+            display: block;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background-color: #2980b9;
+        }
+
+        .section-title {
+            margin: 40px 0 20px;
+            color: #2c3e50;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="subjects.html" class="back-btn">
+            <i class="fas fa-arrow-right"></i>
+            العودة للمواد الدراسية
+        </a>
+        <h2>المحاسبة الضريبية</h2>
+    </header>
+
+    <div class="main-content">
+        <h1 class="subject-title">محاضرات وملفات المحاسبة الضريبية</h1>
+
+        <!-- قسم المحاضرات -->
+        <h2 class="section-title">المحاضرات</h2>
+        <div class="files-grid">
+            <div class="file-card">
+                <div class="file-icon">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <div class="file-name">المحاضرة الأولى</div>
+                <div class="file-description">
+                    مقدمة في المحاسبة الضريبية والنظام الضريبي
+                </div>
+                <a href="ترم اول/الملفات/محاسبة ضريبية/المحاضرة الاولى.pdf" class="download-btn" download>
+                    <i class="fas fa-download"></i>
+                    تحميل المحاضرة
+                </a>
+            </div>
+
+            <div class="file-card">
+                <div class="file-icon">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <div class="file-name">المحاضرة الثانية</div>
+                <div class="file-description">
+                    ضريبة الدخل وطرق حسابها
+                </div>
+                <a href="ترم اول/الملفات/محاسبة ضريبية/المحاضرة الثانية.pdf" class="download-btn" download>
+                    <i class="fas fa-download"></i>
+                    تحميل المحاضرة
+                </a>
+            </div>
+
+            <div class="file-card">
+                <div class="file-icon">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <div class="file-name">المحاضرة الثالثة</div>
+                <div class="file-description">
+                    ضريبة القيمة المضافة
+                </div>
+                <a href="ترم اول/الملفات/محاسبة ضريبية/المحاضرة الثالثة.pdf" class="download-btn" download>
+                    <i class="fas fa-download"></i>
+                    تحميل المحاضرة
+                </a>
+            </div>
+
+            <div class="file-card">
+                <div class="file-icon">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <div class="file-name">المحاضرة الرابعة</div>
+                <div class="file-description">
+                    الإقرارات الضريبية وإجراءات الفحص
+                </div>
+                <a href="ترم اول/الملفات/محاسبة ضريبية/المحاضرة الرابعة.pdf" class="download-btn" download>
+                    <i class="fas fa-download"></i>
+                    تحميل المحاضرة
+                </a>
+            </div>
+        </div>
+        <!-- قسم الملخصات -->
+        <h2 class="section-title">الملخصات</h2>
+        <div class="files-grid">
+            <div class="file-card">
+                <div class="file-icon">
+                    <i class="fas fa-file-alt"></i>
+                </div>
+                <div class="file-name">ملخص شامل</div>
+                <div class="file-description">
+                    ملخص كامل لجميع محاضرات المادة
+                </div>
+                <a href="ترم اول/الملفات/محاسبة ضريبية/ملخص شامل.pdf" class="download-btn" download>
+                    <i class="fas fa-download"></i>
+                    تحميل الملخص
+                </a>
+            </div>
+        </div>
+
+        <!-- قسم نماذج الامتحانات -->
+        <h2 class="section-title">نماذج امتحانات</h2>
+        <div class="files-grid">
+            <div class="file-card">
+                <div class="file-icon">
+                    <i class="fas fa-file-contract"></i>
+                </div>
+                <div class="file-name">نموذج امتحان شامل</div>
+                <div class="file-description">
+                    نموذج امتحان شامل مع الحل
+                </div>
+                <a href="ترم اول/الملفات/محاسبة ضريبية/نموذج امتحان.pdf" class="download-btn" download>
+                    <i class="fas fa-download"></i>
+                    تحميل النموذج
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

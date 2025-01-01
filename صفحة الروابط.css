@@ -1,0 +1,492 @@
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 100px 200px;
+}
+
+.main {
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(sabry/ahmed.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.main h2 {
+  color: #06109e;
+  font-size: 2.3em;
+  font-weight: 900;
+}
+
+.main h2 span {
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 100px;
+  color: #ff0000;
+  font-size: 0.99em;
+  font-weight: 500;
+}
+
+.main h3 {
+  color: #00fd15;
+  font-size: 2em;
+  font-weight: 450;
+  letter-spacing: 1.3px;
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+
+.main-btn {
+  color: #4fff09;
+  background-color: 0e46ff;
+  text-decoration: none;
+  font-size: 1.4em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition: 0.7s ease;
+  margin: 30px;
+  border: 2px solid #0004ff;
+}
+.main-btn:hover {
+  background-color: #1619e4;
+  transform: scale(1.1);
+}
+
+.social-icons a {
+  color: #0b35f0;
+  font-size: 2.5em;
+  padding-right: 20px;
+}
+.title {
+  display: flex;
+  color: #ff0e0e;
+  display: flex;
+  justify-content: center;
+  font-size: 2.2em;
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+.title5 {
+  display: flex;
+  color: #e41627;
+  margin-top: 0px;
+  font-size: 3em;
+  justify-content: center;
+}
+.projects {
+  background-color: #1c038b;
+}
+.projects .content {
+  display: inline;
+  justify-content: center;
+ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+   justify-content: space-between;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.project-card {
+  background-color: #fff;
+  border: 1px solid #fff;
+  height: 41.5em;
+  width: 40%;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 15px;
+  transition: 0.7s ease;
+  margin-top: 30px;
+}
+.project-card:hover {
+  transform: scale(1.1);
+}
+.project-card:hover {
+  opacity: 0.9;
+}
+.project-image img {
+  width: 100%;
+}
+.project-info {
+  padding: 1em;
+}
+.project-category {
+  font-size: 1.5em;
+  color: #000;
+}
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.more-details {
+  text-decoration: none;
+  color: #0016d8;
+  font-size: 1.3em;
+}
+.more-details:hover {
+  color: #ff0808;
+}
+.title {
+  align-items: center;
+}
+.project-card1 {
+  
+  background-color: #fff;
+  border: 1px solid #fff;
+  height: 25em;
+  width: 40%;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 15px;
+  transition: 0.7s ease;
+  margin-top: 25px;
+}
+.project-card2 {
+  background-color: #fff;
+  border: 1px solid #fff;
+  height: 25em;
+  width: 40%;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 15px;
+  transition: 0.7s ease;
+  margin-top: 25px;
+}
+.project-card1:hover {
+  transform: scale(1.1);
+}
+.project-card1:hover {
+  opacity: 0.9;
+}
+.project-card2:hover {
+  transform: scale(1.1);
+}
+.project-card2:hover {
+  opacity: 0.9;
+}
+.project-card3 {
+  background-color: #fff;
+  border: 1px solid #fff;
+  height: 18em;
+  width: 40%;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 15px;
+  transition: 0.7s ease;
+  margin-top: 25px;
+}
+.project-card3:hover {
+  transform: scale(1.1);
+}
+.project-card3:hover {
+  opacity: 0.9;
+}
+/*@media (min-width: 1023px) {  */
+
+/*  */
+@media (max-width: 1023px) {
+
+  .title {
+    font-size: 1.5em;
+  }
+
+  section {
+    padding: 80px 20px;
+  }
+
+  .main-content h2 {
+    font-size: 1.3em;
+  }
+
+  .main-content h3 {
+    font-size: 1.9em;
+  }
+
+
+  .main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .main-btn1 {
+    font-size: 1em;
+  }
+  .a1 {
+    font-size: 2.5em;
+  }
+  .main h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+  .main h3 {
+    font-size: 1.4em;
+    font-weight: 250;
+  }
+  .main-btn1 {
+    font-size: 1em;
+    font-weight: 600;
+    margin: 30px;
+    width: 19em;
+    height: 2.9em;
+  }
+  .main-btn {
+    font-size: 0.9em;
+    font-weight: 600;
+  }
+  .social-icons a {
+    font-size: 1.7em;
+    padding-right: 20px;
+  }
+  .title5 {
+    margin-top: 20px;
+    font-size: 2em;
+  }
+  .project-card {
+    height: 18em;
+    width: 37em;
+  }
+  .project-title {
+    font-weight: 100;
+  }
+  .more-details {
+    font-size: 1.1em;
+  }
+  .project-card1 {
+    height: 18em;
+    width: 37em;
+  }
+  .project-card2 {
+    height: 18em;
+    width: 37em;
+  }
+  .project-card3 {
+    height: 18em;
+    width: 37em;
+  }
+  .project-category {
+    font-size: 2.5vw;
+  }
+}
+
+
+
+
+
+
+/* استعلام وسائط لتصغير عرض الأزرار في الشاشات الصغيرة */
+@media (max-width: 768px) {
+  .button-container {
+      flex-direction: column; /* تغيير الاتجاه إلى عمودي */
+      align-items: center; /* محاذاة الأزرار في المنتصف */
+  }
+
+  .main-btn1 {
+      width: 90%; /* جعل عرض الزر 90% من عرض الحاوية */
+      margin: 10px 0; /* إضافة مسافة عمودية بين الأزرار */
+  }
+}
+
+
+.dropbtn {
+  background-color: #2009f0;
+  color: white;
+  padding: 10px 15px;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* استعلام وسائط للشاشات الصغيرة */
+@media (max-width: 768px) {
+
+  .dropbtn {
+      width: auto;
+      text-align: center;
+  }
+
+  .dropdown-content {
+      width: 100%;
+  }
+}
+
+
+
+@media (max-width: 720px) {
+    .main h2 {
+        font-size: 2.1em; /* تقليل حجم النص في العنوان الرئيسي */
+    }
+
+    .main h3 {
+        font-size: 1.2em; /* تقليل حجم النص في العنوان الفرعي */
+    }
+
+    .project-card .project-info {
+        font-size: 0.9em; /* تصغير حجم النص في الوصف داخل الكارد */
+    }
+
+    .more-details {
+        font-size: 1.1em; /* زيادة حجم الرابط قليلاً */
+    }
+
+    .project-category {
+        font-size: 1.1em; /* تقليل حجم عنصر project-category */
+    }
+
+    .title5 {
+        font-size: 2.2em; /* تقليل حجم عنصر title5 */
+    }
+}
+
+
